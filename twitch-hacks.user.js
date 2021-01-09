@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name		TWITCH-HACKS
 // @namespace	TH
-// @version		0.0.001
+// @version		0.0.002
 // @author		Siegfried0
 // @description TWITCH-HACKS is an userscript to enhance the userexperience on twitch.
 // @homepage    https://github.com/Siegfried0/twitch-hacks
@@ -18,8 +18,8 @@
 
 // checks for channel specific point boni button and click it if found
 let th_checkBoniButton = setInterval(function() {
-    if (document.getElementsByClassName("tw-button tw-button--success tw-interactive") != 'undefined' && document.getElementsByClassName("tw-button tw-button--success tw-interactive").length >= 1) {
-        document.getElementsByClassName("tw-button tw-button--success tw-interactive")[0].click();
+    if (document.getElementsByClassName("tw-button tw-button--success") != 'undefined' && document.getElementsByClassName("tw-button tw-button--success").length >= 1) {
+        document.getElementsByClassName("tw-button tw-button--success")[0].click();
     }
 }, 10000); // chek all 10 seconds
 
