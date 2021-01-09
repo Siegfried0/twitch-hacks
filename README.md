@@ -10,3 +10,10 @@ The project was developed and tested with [Tampermonkey for Firefox](https://add
 
 If you have Tampermonkey (or similar) installed, you can simply install the user script by opening the [raw source code](https://github.com/Siegfried0/twitch-hacks/raw/master/twitch-hacks.user.js) in the browser and then following the installation process of the add-on you are using.
 The script is built to let Tampermonkey know if a new version becomes available here in the repository (master branch) and can then automatically update.
+
+### Features
+
+| feature-name  | description                                                                                                                                   |
+| ------------- |:---------------------------------------------------------------------------------------------------------------------------------------------:|
+| bonus-button  | the script checks the page periodically for the channel bonus points button. if it is found in the html dom, the script clicks on it for you. |
+
